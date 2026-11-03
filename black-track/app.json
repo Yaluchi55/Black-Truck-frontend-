@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Black Truck",
+    "slug": "black-truck",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0C10",
+    "splash": {
+      "backgroundColor": "#0B0C10",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "zm.blacktrack.app"
+    },
+    "android": {
+      "package": "zm.blacktrack.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0C10"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Black Truck uses the camera so you can share a photo with your chauffeur."
+        }
+      ]
+    ]
+  }
+}
